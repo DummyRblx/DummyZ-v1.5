@@ -1,0 +1,117 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "⟐DummyZ⟐", HidePremium = true, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+local Tab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://123980266142755",
+	PremiumOnly = false
+})
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Hubs"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Black King hub 👑",
+	Callback = function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+Tab:AddButton({
+	Name = "Mspaint 🎨",
+	Callback = function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercortent.com/notpoiu/mspaint/main/main.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]] 
+local Section = Tab:AddSection({
+	Name = "Custom Items"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "seek plushie 👁️",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/sVyuBwiQ')))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "Rainbow Friends",
+	Icon = "rbxassetid://85684217801068",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Player"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+local Section = Tab:AddSection({
+	Name = "Other modhubs"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Guiding MODHUB 🔵 (credits:jiggle)key=ILOVELITHUB",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Teilsthebfdifan/Guiding-modhub/refs/heads/main/modhub235.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
